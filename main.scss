@@ -1,0 +1,25 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+$theme-colors: ("primary": #0074d9,
+    "secondary": #725b53,
+    "danger": #c75b39,
+);
+
+$body-bg: #000;
+$body-color: #111;
+$jumbotron: #ffbb93;
+
+.xnavbar {
+    position: relative;
+    background: #c75b39;
+}
+
+#xnav-search {
+    background: $danger;
+    margin-left: 40px;
+}
+
+.jumbotron {
+    background: $jumbotron;
+}
